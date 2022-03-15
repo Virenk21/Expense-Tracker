@@ -20,6 +20,6 @@ function App() {
       </div>
       </GlobalProvider>
   );
-}
+};
 
 export default App;

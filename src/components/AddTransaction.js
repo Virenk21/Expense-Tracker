@@ -29,7 +29,7 @@ export const AddTransaction = () => {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter text..."
+            placeholder="Enter text......"
           />
         </div>
         <div className="form-control">
@@ -41,7 +41,7 @@ export const AddTransaction = () => {
             type="number"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="Enter amount..."
+            placeholder="Enter text......"
           />
         </div>
         <button className="btn">Add transaction</button>
